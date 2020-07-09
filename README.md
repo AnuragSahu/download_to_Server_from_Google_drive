@@ -1,23 +1,15 @@
-## Download files from Google Drive using Python 2 or Python 3
+## Download files from Google Drive using Python
 
-### Guide for usage:
+### usage:
 In your terminal, run the command:
-
 `python download_gdrive.py GoogleFileID /path/for/this/file/to/download/file.zip`
-
 
 
 ### Example:
 If the download link looks like below, the GoogleFileID is 0Bz7KyqmuGsilT0J5dmRCM0ROVHc
 https://drive.google.com/uc?export=download&confirm=1o_3&id=0Bz7KyqmuGsilT0J5dmRCM0ROVHc
 
-If the path for this file to download is /home/ubuntu/myfile/file.zip
-then the command you should run is
-`python download_gdrive.py 0Bz7KyqmuGsilT0J5dmRCM0ROVHc /home/ubuntu/myfile/file.zip`
-
-
-
-### Credited to 
-[Stack Overflow Link](https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive)
-
-[Author](https://stackoverflow.com/users/1475331/user115202)
+### How to get the GoogleFileID
+- get the link from Google such that anyone can view with the link
+ex: https://drive.google.com/file/d/1Yt-FS-_ppg0-j9CZgxdIGIjaptazKIhN/view?usp=sharing
+the GoogleFileID is 1Yt-FS-_ppg0-j9CZgxdIGIjaptazKIhN
