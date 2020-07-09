@@ -1,4 +1,4 @@
-## Download files from Google Drive using Python
+## Download files from Google Drive to server using Python
 
 ### usage:
 In your terminal, run the command:
